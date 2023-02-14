@@ -1,0 +1,312 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.container {
+    width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fomr-search {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0095d8;
+
+}
+
+.lienhe>p {
+    font-size: 11px;
+    color: white;
+}
+
+.search {
+    /* margin-bottom: 14px; */
+    display: flex;
+    padding: 12px;
+}
+.insearch:hover{
+ background-color: aqua;
+}
+.insearch{
+    border-radius: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu>li {
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    padding: 6px;
+    font-size: 14px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    color: black;
+    font-weight: 600;
+}
+
+.imgg>img {
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.menu li a:hover {
+    background-color: rgb(73, 140, 218);
+    color: white;
+}
+
+.sub-menu>li>a {
+    text-decoration: none;
+    margin: 12px;
+    font-size: 14px;
+    color: white;
+}
+
+.sub-menu>li {
+    list-style: none;
+}
+
+.sub-menu {
+    position: absolute;
+    display: none;
+    background-color: rgb(73, 140, 218);
+}
+
+.menu>li:hover>.sub-menu {
+    display: block;
+}
+
+.sub-menu>li>a:hover {
+    text-decoration: underline;
+}
+
+.control {
+    text-align: center;
+}
+
+.chon>a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-weight: 700;
+}
+
+.control>a>img {
+    width: 1000px;
+    height: 250px;
+}
+
+tbody>tr>td>a {
+    text-decoration: none;
+    color: black;
+}
+
+.chon>a:hover {
+    text-decoration: underline;
+}
+
+tbody>tr>td>a:hover {
+    text-decoration: underline;
+}
+
+.video>td>iframe:hover {
+    transform: scale(1.1);
+}
+
+.title>td>a:hover {
+    color: black;
+}
+
+.title>td>a {
+    color: rgb(57, 103, 173);
+}
+
+.about>td>a>img {
+    width: 700px;
+    height: 460px;
+}
+
+.about>td>img {
+    width: 250px;
+    height: 147px;
+}
+
+.about-one {
+    border: 1px none;
+    background-color: #0095d8;
+}
+
+.about>td>h2 {
+    color: white;
+}
+
+.about>td>h3 {
+    color: white;
+}
+
+.co-operate>td>img {
+    width: 290px;
+    height: 160px;
+}
+
+.co-operate-one {
+    border: 1px none;
+}
+
+.co-operate-two>td:hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.news6 {
+    display: flex;
+    background-color: #0095d8;
+    padding: 20px;
+}
+
+.contact-info>h2,
+p {
+    color: white;
+}
+
+.input {
+    height: 30px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 288px;
+    background-color: rgb(105, 151, 178);
+}
+
+.news7 {
+    text-align: center;
+    padding: 20px;
+}
+
+.news7>img:hover {
+    transform: scale(1.2);
+}
+
+.one {
+    display: flex;
+    background-color: #0095d8;
+    padding: 50px;
+    padding-bottom: 150px;
+}
+
+.TB-university>h3 {
+    color: white;
+}
+
+.TB-university>p {
+    font-size: small;
+}
+
+footer {
+    display: flex;
+    background-color: #3c96c0;
+    padding: 15px;
+    font-size: small;
+}
+
+/* banner */
+@keyframes slideshow {
+    20% {
+        margin-left: 0%;
+    }
+
+    30% {
+        margin-left: -100%;
+    }
+
+    40% {
+        margin-left: -100%;
+    }
+
+    50% {
+        margin-left: -200%;
+    }
+
+    60% {
+        margin-left: -200%;
+    }
+
+    70% {
+        margin-left: -300%;
+    }
+
+    80% {
+        margin-left: -300%;
+    }
+
+    90% {
+        margin-left: -400%;
+    }
+
+    100% {
+        margin-left: -400%;
+    }
+
+}
+
+.banner {
+    overflow: hidden;
+    height: 920px;
+    width: 1200px;
+    margin: 0 auto;
+    background: url(IMG/bc4.jpg);
+}
+
+.img {
+    float: left;
+    height: 920px;
+    width: 1200px;
+    display: flex;
+    justify-items: center;
+}
+
+.dislay {
+    animation: slideshow 16s infinite;
+    width: 500%;
+}
+
+.img>img {
+    width: 1200px;
+    height: 920px;
+}
+
+.submit:hover {
+    text-decoration: underline;
+}
+
+.bar {
+    display: flex;
+    background-color: #0095d8;
+    width: 920px;
+    height: 210px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.bar1>a>img:hover{
+transform: scale(1.2);
+}
+.imgg>img:hover{
+    transform: scale(1.2);
+}
+/*  */
+.imggg>img{
+    width: 180px;
+    height: 119px;
+    
+}

@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.container {
+    width: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fomr-search {
+    display: flex;
+    justify-content: space-between;
+    background-color:#0095d8;
+
+}
+
+.lienhe>p {
+    font-size: 11px;
+    color: white;
+}
+
+.search {
+    /* margin-bottom: 14px; */
+    display: flex;
+    padding: 12px;
+}
+.insearch:hover{
+    background-color: aqua;
+   }
+   .insearch{
+       border-radius: 10px;
+   }
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu>li {
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.menu>li>a {
+    text-decoration: none;
+    padding: 6px;
+    font-size: 14px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    color: black;
+    font-weight: 600;
+}
+
+.imgg>img {
+    margin-top: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.menu li a:hover {
+    background-color: rgb(73, 140, 218);
+    color: white;
+}
+
+.sub-menu>li>a {
+    text-decoration: none;
+    margin: 12px;
+    font-size: 14px;
+    color: white;
+}
+
+.sub-menu>li {
+    list-style: none;
+}
+
+.sub-menu {
+    position: absolute;
+    display: none;
+    background-color: rgb(73, 140, 218);
+}
+
+.menu>li:hover>.sub-menu {
+    display: block;
+}
+
+.sub-menu>li>a:hover {
+    text-decoration: underline;
+}
+
+.control {
+    text-align: center;
+}
+
+.chon>a {
+    text-decoration: none;
+    margin-left: 20px;
+    color: black;
+    font-weight: 700;
+}
+/* form */
+.in_content{
+    display: flex;
+}
+.title{
+    text-align: center;
+    padding: 20px;
+    background: url(IMG/bc_2.jpg);
+}
+.title>h2,p{
+    color: white;
+}
+.info-one>img{
+    width: 390px;
+    height: 250px;
+    padding: 25px;
+}
+.info-two>p{
+    color: black;
+}
+span{
+    background-color: #0095d8;
+    padding: 1px;
+    border-radius: 6px;
+    color: white;
+}
+/* end */
+.one{
+    display: flex;
+    background-color: #0095d8;
+    padding: 50px;
+    padding-bottom: 150px;
+}
+.TB-university>h3{
+    color: white;
+}
+.TB-university>p{
+    font-size: small;
+}
+footer{
+    display: flex;
+    background-color: #3c96c0;
+    padding: 15px;
+    font-size: small;
+}
+.comment{
+    text-align: center;
+}
+.info-one>img:hover{
+    transform: scale(1.1);
+}
+.bar{
+    display: flex;
+    background-color: #0095d8;
+    width: 920px;
+    height: 210px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.imgg>img:hover{
+    transform: scale(1.2);
+}
